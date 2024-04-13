@@ -27,4 +27,6 @@ model Person {
   firstname String
   lastname  String
   phone     String
+  dob       DateTime   @default(now())
 }
+
